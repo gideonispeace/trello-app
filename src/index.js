@@ -6,7 +6,7 @@ import App from "./components/App";
 import * as serviceWorker from "./serviceWorker";
 import "./index.css";
 import { createGlobalStyle } from "styled-components";
-import $ from "jQuery";
+import $ from "jquery";
 import { PersistGate } from "redux-persist/integration/react";
 
 const { persistor, store } = Store();
